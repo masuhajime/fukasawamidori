@@ -19,7 +19,7 @@ def symlinks
   dir_nend_android  = dir_nend + '/NendSDK_Android-2.5.2'
   return {
     # common
-    dir_nend_2dx+"/NendModule/NendCommon" => dir_project_class + "/NendCommon",
+    dir_nend_2dx+"/NendModule/NendModules" => dir_project_class + "/NendModules",
     # android
     dir_nend_android+"/Nend/SDK/nendSDK-2.5.2.jar" => dir_project_android_lib+"/nendSDK-2.5.2.jar",
     dir_nend_android+"/AdMobMediationAdapter/nendAdapter-1.2.0.jar" => dir_project_android_lib+"/nendAdapter-1.2.0.jar",
