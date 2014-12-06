@@ -2,9 +2,11 @@ require 'fileutils'
 
 def directories
   dir_project               = File.expand_path(Dir.pwd + '/..')
-  dir_project_android_src   = dir_project + '/proj.android/src'
+  dir_project_android       = dir_project + '/proj.android'
+  dir_project_android_src   = dir_project_android + '/src'
   return [
-    dir_project_android_src+"/net"
+    dir_project_android + "/libs",
+    dir_project_android_src + "/net"
   ]
 end
 
