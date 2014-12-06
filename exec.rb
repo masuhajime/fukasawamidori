@@ -1,7 +1,7 @@
 require 'fileutils'
 
 def directories
-  dir_project               = File.expand_path(Dir.pwd + '/..')
+  dir_project               = File.expand_path(File.dirname(__FILE__) + '/..')
   dir_project_android       = dir_project + '/proj.android'
   dir_project_android_src   = dir_project_android + '/src'
   return [
@@ -11,7 +11,7 @@ def directories
 end
 
 def symlinks
-  dir_project               = File.expand_path(Dir.pwd + '/..')
+  dir_project               = File.expand_path(File.dirname(__FILE__) + '/..')
   dir_project_class         = dir_project + '/Classes'
   dir_project_android_lib   = dir_project + '/proj.android/libs'
   dir_project_android_src   = dir_project + '/proj.android/src'
