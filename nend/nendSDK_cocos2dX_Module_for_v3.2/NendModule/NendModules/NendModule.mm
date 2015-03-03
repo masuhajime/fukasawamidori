@@ -8,7 +8,7 @@
 #include "NendModule.h"
 #include "AppController.h"
 #import "RootViewController.h"
-#import "CCEAGLView.h"
+#import "CCEAGLView-ios.h"
 #import "NADView.h"
 
 @interface NadViewDelegate : NSObject<NADViewDelegate>

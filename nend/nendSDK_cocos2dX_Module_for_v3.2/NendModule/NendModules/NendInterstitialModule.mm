@@ -9,7 +9,7 @@
 #import "NendInterstitialModule.h"
 #include "AppController.h"
 #import "RootViewController.h"
-#import "CCEAGLView.h"
+#import "CCEAGLView-ios.h"
 #import "NADInterstitial.h"
 
 @interface NadInterstitialDelegate : NSObject<NADInterstitialDelegate>

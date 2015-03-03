@@ -8,7 +8,7 @@
 #include "NendIconModule.h"
 #include "AppController.h"
 #import "RootViewController.h"
-#import "CCEAGLView.h"
+#import "CCEAGLView-ios.h"
 #import "NADIconLoader.h"
 
 #define ICON_DISPLAY_COUNT 4
